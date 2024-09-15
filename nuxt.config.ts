@@ -7,6 +7,7 @@ export default defineNuxtConfig({
       title: "Habit Tracker",
     },
   },
+  modules: ["@pinia/nuxt"],
   css: ["~/assets/css/main.css"],
   postcss: {
     plugins: {
